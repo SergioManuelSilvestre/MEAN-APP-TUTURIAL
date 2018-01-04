@@ -1,28 +1,32 @@
 {
-  "name": "tutorial",
+  "name": "mean",
   "version": "1.0.0",
-  "description": "MEAN APP angular 2",
+  "description": "Tuturial",
   "main": "index.js",
   "scripts": {
-    "start": " node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SergioManuelSilvestre/MEAN-APP-TUTURIAL.git"
+    "url": "git+https://github.com/SergioManuelSilvestre/tuturialAngular.git"
   },
   "keywords": [
-    "MEAN",
-    "STACK",
-    "ANGULAR"
+    "Mean",
+    "Angular",
+    "5"
   ],
   "author": "Sérgio Silvestre",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SergioManuelSilvestre/MEAN-APP-TUTURIAL/issues"
+    "url": "https://github.com/SergioManuelSilvestre/tuturialAngular/issues"
   },
-  "homepage": "https://github.com/SergioManuelSilvestre/MEAN-APP-TUTURIAL#readme",
+  "homepage": "https://github.com/SergioManuelSilvestre/tuturialAngular#readme",
   "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
-    "mongoose": "^4.13.5"
+    "mongoose": "^4.13.8"
   }
 }
